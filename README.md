@@ -26,4 +26,5 @@ step 2 : Open the terminal with project directory.
 Step 3 : write "npm install express" in terminal to install node module and package.json files.
 Step 4 : write "npm install mysql2" for connecting with database.
 Step 5 : Add test.js file in your directory.
-Step 6 : write "node test.js" to run the project.
+Step 6 : Make changes in 'database Connection Settings' part in test.js according to your database configuration.
+Step 7 : write "node test.js" to run the project.
