@@ -19,3 +19,6 @@ c) The Sorting Code, from the next minute onwards, should take the altered order
 
 3. Executed Code
 Write a code which creates a 'Traded order' every time the Matching Code triggers, i.e. a separate order entry will be generated from the Matching Code output and stored in the database permanently. For the example above, assuming the trigger event happened at 3:14 pm, it will look like (Traded, Rs. 10.5/-, 3:14 pm, 180, Buyer: User 41, Seller: Client 862). Essentially, it creates a separate record (which does not go through sorting anymore, but is simply stored in the database forever), of the quantity that has matched in Price, its timestamp, quantity and the identities of Buyer and Seller.
+
+To Run this project:
+create a database named tutorial and a table named trades in same database.
